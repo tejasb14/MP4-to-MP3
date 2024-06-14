@@ -18,8 +18,8 @@ def convert_videos_to_mp3(video_folder, output_folder_mp3):
             print(f"Converted {filename} to {audio_mp3_path}")
 
 # Files input and output directory
-# Change the directory location according to your files location
-video_folder = r'E:\University\Bio Research Lab\MP4toMP3\MP4'
-output_folder_mp3 = r'E:\University\Bio Research Lab\MP4toMP3\MP3'
+# Change the directory location according to your file location
+video_folder = r'MP4'
+output_folder_mp3 = r'MP3'
 
 convert_videos_to_mp3(video_folder, output_folder_mp3)
